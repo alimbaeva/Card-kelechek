@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* img{
+    width: 80px;
+    border-radius: 50%;
+} */
+
+.card{
+    width: 350px;
+    height: 450px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(122, 200, 236);
+}
+.card__item{
+    width: 300px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid green;
+    border-radius: 40px;
+    box-shadow: 0 0 5px 7px rgb(6, 156, 99);
+    background-color: white;
+}
+.card__foto{
+    width: 110px;
+    height: 110px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background-image: url(./img/photo_2021-07-30_19-48-08.jpg);
+    background-size: cover;
+}
+
+img{
+    width: 20px;
+}
+li{
+    display: inline-block;
+    margin: 3px;
+}
+h1{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.card__title{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: gray;
+}
+p{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card__link{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
+}
+.card__linck-bloc{
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
